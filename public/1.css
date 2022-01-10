@@ -1,0 +1,766 @@
+/* template*/
+header{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+font-size: .875rem;
+line-height: 1.43;
+color: #484848;
+padding-top:1rem;
+}
+body
+{
+
+background-image: url("https://a0.muscache.com/4ea/air/r:w3100-h2074-sfit,e:fjpg-c80/pictures/0ffd8594-f123-43f0-85bb-7ef88c6f0624.jpg");
+background-repeat:no-repeat;
+background-size: cover;
+}
+svg{
+    height: 1em;
+width: 1em;
+display:inline-block;
+color:white;    
+}
+#logo{
+    display: inline-block   ;
+vertical-align: middle   ;
+font-size: 2.215rem   ;
+transition: color 0.25s ease 0s   ;
+color: rgb(255, 255, 255)   ;
+padding-left:1rem;
+}
+#head1
+{
+    display: grid;
+    grid-template-columns: 9.8fr .2fr;
+}
+.nav
+{
+    display: inline-block   ;
+    padding: 1rem   ;
+    vertical-align: middle   ;
+line-height: 3   ;
+border-bottom: .125rem solid transparent   ;
+color:white;
+font-size: inherit;
+font-family: inherit;
+}
+#box1
+{
+    height: 100%   ;
+vertical-align: middle   ;
+box-sizing: border-box   ;
+border-bottom: .125rem solid transparent   ;
+width:9.5rem;
+}
+#box2
+{
+    height: 100%   ;
+vertical-align: middle   ;
+box-sizing: border-box   ;
+border-bottom: .125rem solid transparent   ;
+width:10rem;
+}
+.box3
+{
+    height: 100%   ;
+vertical-align: middle   ;
+box-sizing: border-box   ;
+border-bottom: .125rem solid transparent   ;
+width:5rem;
+}
+
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+}
+.nav:hover{
+    border-bottom: .1rem solid white  ;  
+}
+#nav_grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.footer1{
+    margin: 0rem   ;
+overflow-wrap: break-word   ;
+font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif   ;
+font-size: .875rem   ;
+font-weight: 800   ;
+line-height: 1.28571em   ;
+color: rgb(72, 72, 72)   ;
+}
+a{
+    text-decoration:none;
+}
+footer{
+    padding-top:8rem;
+}
+footer a{
+    color:white;
+}
+#footer_grid
+{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-column-gap: 8rem;
+}
+.footer_media
+{
+    display: inline-block   ;
+padding-left: .5rem   ;
+padding-right: .5rem   ;
+vertical-align: middle   ;
+
+}
+footer svg{
+    height: 1.125rem;
+width: 1.125rem;
+display: inline-block;
+fill:blue;
+}
+.footer_link
+{
+    cursor: pointer   ;
+background-color: transparent   ;
+color: blue   ;
+border: 0rem none   ;
+display: inline  ;
+padding: 0rem; margin: 0rem;
+}
+#footer_logo
+{
+    padding-left: 5rem;
+    padding-top:3rem;
+}
+#footer_list_logos
+{
+    display: inline-block   ;
+margin-left: -.3125rem   ;
+white-space: nowrap   ;
+vertical-align: middle   ;
+}
+#footer_terms
+{
+    margin-bottom: .25rem   ;
+margin-top: 1rem   ;
+}
+.footer_privacy
+{
+    margin-bottom: .25rem   ;
+    color:white;
+}
+#footer_main
+{
+    padding: .9375rem   ;
+    max-width: 67.5rem   ;
+    margin: 0rem auto   ;
+position: relative   ;
+background-color:transparent;
+}
+#footer_bottom
+{
+    margin: 0rem   ;
+overflow-wrap: break-word   ;
+font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif   ;
+font-size: .875rem   ;
+font-weight: 600   ;
+line-height: 1.28571em   ;
+color: rgb(118, 118, 118)   ;
+padding-left:0.1rem;
+}
+#footer_bottom2
+{
+    display: inline-flex;
+    padding:0;
+}
+#footer_bottom3
+{
+    display: grid;
+    grid-template-columns:.1fr 9.9fr;
+    padding:0;
+}
+#footer_svg_bottom
+{
+    padding-left:2rem;
+}
+
+
+/*home page*/
+
+#home
+{
+    margin: 0rem auto   ;
+position: relative   ;
+max-width: 110rem   ;
+padding-right: 5rem   ;
+padding-left: 0rem   ;
+}
+#home1
+{
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%   ;
+    border-radius: .25rem   ;
+    padding: 2rem 2rem 1.5rem   ;
+    width: 27.5625rem   ;
+    box-shadow: rgba(0, 0, 0, 0.12) 0rem 1rem 2.5rem   ;
+}
+.home2
+{
+    font-size: 1rem   ;
+line-height: 2.25rem   ;
+letter-spacing: normal   ;
+font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif   ;
+color: rgb(72, 72, 72)   ;
+margin: 0rem   ;
+padding: 0rem   ;
+}
+.home3{
+    color:inherit;
+}
+.home3:hover{
+    text-decoration: none;
+}
+.home_labels
+{
+    margin: 0rem   ;
+overflow-wrap: break-word   ;
+font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif   ;
+font-size: .75rem   ;
+font-weight: 800   ;
+line-height: 1.33333em   ;
+letter-spacing: 0.0833333em   ;
+color: rgb(72, 72, 72)   ;
+padding-bottom: 1rem;
+}
+.home_whereIP
+{
+    -moz-box-align: center   ;
+    padding-left: .75rem   ;
+    padding-right: .75rem   ;
+    position: relative   ;
+    align-items: center   ;
+    background-color: rgb(255, 255, 255)   ;
+    display: flex   ;
+    height: 3rem   ;
+    width: 100%   ;
+    border:0.0625rem solid sliver;
+
+    font-size: 1.0625‬rem   ;
+background-color: transparent   ;
+margin: 0rem   ;
+padding: 0rem   ;
+width: 100%   ;
+text-overflow: ellipsis   ;
+}
+
+.home_date
+{
+    font-size: var(--font-form-element-font-size, 1.0625rem)   ;
+line-height: var(--font-form-element-line-height, 1.5rem)   ;
+letter-spacing: var(--font-form-element-letter-spacing, normal)   ;
+
+text-transform: var(--font-form-element-text-transform, undefined)   ;
+color: var(--font-form-element-color, #484848)   ;
+padding-top: var(--spacing-form-element-vertical, .6875rem)   ;
+padding-bottom: var(--spacing-form-element-vertical, .6875rem)   ;
+font-weight: var(--font-light-font-weight, normal)   ;
+background-color: var(--color-clear, transparent)   ;
+padding-left: var(--spacing-form-element-horizontal, 0rem)   ;
+padding-right: var(--spacing-form-element-horizontal, .6875rem)   ;
+border:0rem none;
+}
+#home_grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2rem;
+}
+#home_guest
+{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%   ;
+position: relative   ;
+text-align: left   ;
+border:0.0625rem solid rgb(235, 235, 235)   ;
+border-radius: 0.1875‬rem   ;
+padding: .5rem 0.6875‬rem 0.6875‬   ;
+font-size: 1rem   ;
+font-weight: 400   ;
+line-height: normal   ;
+display: block   ;
+width: 100%   ;
+height: 3rem   ;
+color: rgb(118, 118, 118)   ;
+}
+.home_search
+{
+    font-size: var(--font-form-element-font-size, 1.0625rem)   ;
+line-height: var(--font-form-element-line-height, 1.5rem)   ;
+letter-spacing: var(--font-form-element-letter-spacing, normal)   ;
+
+text-transform: var(--font-form-element-text-transform, undefined)   ;
+color: var(--font-form-element-color, #484848)   ;
+padding-top: var(--spacing-form-element-vertical, .6875rem)   ;
+padding-bottom: var(--spacing-form-element-vertical, .6875rem)   ;
+font-weight: var(--font-light-font-weight, normal)   ;
+background-color: var(--color-clear, transparent)   ;
+padding-left: var(--spacing-form-element-horizontal, 0rem)   ;
+padding-right: var(--spacing-form-element-horizontal, .6875rem)   ;
+border:0rem none;
+float:right;
+opacity: .8;
+}
+#home_svg
+{
+    position: absolute   ;
+right: .6875rem   ;
+top: 0rem   ;
+bottom: 0rem   ;
+margin: auto   ;
+pointer-events: none   ;
+display: block   ;
+height: .75rem   ;
+width: .75rem   ;
+}
+#home1{
+color:white;
+}
+#home_promo
+{
+    font-size: 2rem;
+    height:15rem;
+    margin-top:1rem;
+    text-align: center;
+    padding-top: 5rem;
+    
+    
+}
+#home_promo2
+{
+    background-image: url(promo.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 10rem;
+    margin-top: 3rem;
+    background-size: cover;
+    opacity: 0.6;
+}
+.home_promo3
+{
+    font-size: 2rem;
+font-weight: normal;
+color:white;
+text-align: center;
+}
+#home_invitebox
+{
+    background-color: white;
+    width:8rem;
+    height: 3rem;
+    text-align: center;
+    margin-left:40%;
+    margin-top:1rem;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: .875rem;
+    line-height: 1.43;  
+}
+#home_aboutus{
+    
+    width:auto;
+    background-image: url(/aboutus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    height: 19.55rem;
+    background-size: cover;
+}
+#home_aboutus_grid
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-top: 1rem;
+    
+}
+#home_aboutus_label
+{
+    font-size: 2rem;
+    line-height: 1.375;
+    font-weight: 600;
+    color:white;
+    padding-left: 1rem;
+}
+
+#home_aboutus_p
+{
+    font-size: 1rem;
+    line-height: 1.66667;
+    text-rendering: optimizeLegibility;
+    color:white;
+    font-family: Cereal,sans-serif;
+    padding-left: 1rem;
+}
+/* room */
+
+#room_main
+{
+    background-color:transparent;
+   
+}
+#room_h2
+{
+    font-size: 2.5rem;
+    color: #363636;
+    font-family: "Josefin Sans", sans-serif;
+font-weight: 600;
+line-height: 1.125rem;
+text-align: center;
+}
+.room_grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    grid-column-gap: 1rem;
+}
+.room_des1
+{
+    color: rgb(34, 34, 34)   ;
+font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif   ;
+font-weight: 400   ;
+font-size: 2rem   ;
+line-height: 1.5rem   ;
+max-height: 1.5rem   ;
+overflow: hidden   ;
+text-overflow: ellipsis   ;
+display: -webkit-box   ;
+-webkit-line-clamp: 1   ;
+-moz-box-orient: vertical   ;
+margin-top:.75rem;
+margin-bottom: 1rem;
+}
+.room_des2
+{
+    color: rgb(34, 34, 34)   ;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif   ;
+    font-weight: 400   ;
+    font-size: 1.125rem   ;
+    line-height: 1.5rem  ;
+    max-height: 1.5rem   ;
+    overflow: hidden   ;
+    text-overflow: ellipsis   ;
+    display: -webkit-box   ;
+    -webkit-line-clamp: 1   ;
+    -moz-box-orient: vertical   ;
+    margin-bottom: .5rem;
+}
+.room_des3
+{
+    -moz-box-align: center   ;
+    align-items: center   ;
+    color: rgb(34, 34, 34)   ;
+    display: flex   ;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif   ;
+    font-weight: 400   ;
+    font-size: 1.125rem   ;
+    line-height: 1.5rem   ;
+    margin-top:.75rem;
+    margin-bottom: 1rem;
+}
+.room_edit
+{
+    text-decoration: none;
+    color:blue;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif   ;
+    font-weight: 400   ;
+}
+.room_back
+{
+    float:right;
+    text-decoration: none;
+    color:grey;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif   ;
+    font-weight: 400   ;
+}
+.room_img_box
+{
+    margin: .5rem;
+    border:0.0625‬rem solid grey;
+    background-color: white;
+}
+.room_img_boxinner
+{
+    border-radius: .375rem;
+display: block;
+padding: 1rem;
+background-color: rgba(0, 0, 0, .01);
+}
+
+.room_img
+{
+    height: auto;
+    width:100%;
+    display: block;
+}
+.room_price
+{
+    font-weight:bold;
+}
+/* sign up */
+
+#signup_grid
+{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1.5fr;
+}
+.signup_box1
+{
+    display: hidden;
+}
+#signup_box2
+{
+    background-color: white;
+}
+#signup_or
+{
+    padding-top:.5rem;
+    padding-bottom: .5rem;
+    color:black;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 3rem;
+    font-family: "Josefin Sans", sans-serif;
+}
+.signup_label
+{
+    margin: 0rem  ;
+    overflow-wrap: break-word   ;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif   ;
+    font-size: 1rem   ;
+    font-weight: 800   ;
+    line-height: 1.33333em   ;
+    letter-spacing: 0.0833333em   ;
+    color: rgb(72, 72, 72)   ;
+    padding-left:.5rem;
+}
+.signup_input
+{
+    -moz-box-align: center   ;
+    position: relative   ;
+    align-items: center   ;
+    background-color: rgb(255, 255, 255)   ;
+    display: flex   ;
+    height: 1.875rem   ;
+    font-size: 1.25rem   ;
+border: 0.0625‬rem solid sliver;
+border-radius: .3125rem;
+margin: 0rem  ;
+padding: 0rem   ;
+width: 100%   ;
+text-overflow: ellipsis   ;
+}
+.signup_input2
+{
+    padding: 1rem .5rem 2rem .5rem;
+}
+#signup_submit
+{
+    background-color: rgb(151, 101, 103);
+border-color: transparent;
+color: #fff;
+justify-content: center;
+padding-bottom: calc(.375em - .0625rem);
+padding-left: .5em;
+padding-right: .75em;
+padding-top: calc(.375em - .0625rem);
+text-align: center;
+white-space: nowrap;
+font-size:2rem;
+}
+#signup_submit_box
+{
+    display: flex;
+ justify-content: flex-end;
+}
+#signup_link
+{
+    text-decoration: none;
+}
+#signup_option
+{
+border-color: transparent;
+color: black;
+justify-content: center;
+padding-bottom: calc(.375em - .0625rem);
+padding-left: .5em;
+padding-right: .75em;
+padding-top: 2rem;
+text-align: center;
+white-space: nowrap;
+    font-size:2rem;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif 
+}
+/*login page*/
+
+#login_maingrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#login_form
+{
+    background-color: white;
+    border: .0625rem solid sliver;
+    border-radius: .3125rem;
+}
+.login_input
+{
+    width:31rem;
+    padding:1rem;
+    height:5rem;
+    margin:1rem;
+}
+.login_forgot
+{
+    text-decoration: none;
+    color:black;
+    padding-left: 1rem;
+}
+#login_submit
+{
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+    padding:1.25rem 1.6875rem 1.25rem 1.6875rem;
+    text-align: center;
+    margin:2rem;
+    width:30rem;
+}
+#login_signup
+{
+    display: inline;
+    margin-right: .25rem;
+    line-height: 2.125rem;
+    font-size: 1rem;
+    padding-left:1.125rem;
+}
+.login_error
+{
+    color:red;
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+}
+
+/*admin pages*/
+
+.admin_user
+{
+    padding-top:5rem;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif   ;
+    font-weight: 400   ;
+    font-size: 1.125rem   ;
+    padding-bottom: 3rem;
+    padding-left:3rem;
+    color:white;
+}
+
+/*create a room page*/
+.add_form
+{
+    padding-left:3rem;
+}
+.add_error
+{
+    padding-left:3rem;
+    color:red;
+}
+
+/*booking*/
+.user_title
+{
+    text-decoration: none;
+    color:gold;
+    padding-left: 3rem;
+    font-size:1rem;
+}
+.user_booked
+{
+    color:white;
+    padding:2rem 0 1rem 2rem;
+    font-size:2rem;
+    text-align: center;
+}
+
+/* responsive design */
+
+@media(max-width:768px)
+{
+   /*template*/
+    #nav_grid
+    {
+        display: block;
+        
+    }#box1
+    {
+        height: auto   ;
+    }
+    #box2
+    {
+        height: auto   ;
+    }
+    .box3
+    {
+        height: auto  ;
+    }
+   
+    #head1
+    {
+        display: block;
+    }
+    #footer_grid
+    {
+        display: block;
+    }
+    
+    /*home page*/
+
+    #home_promo2
+    {
+    height: auto;
+    }
+    .home_promo3
+    {
+    font-size: 2rem;
+    width:auto;
+    }
+    #home_invitebox
+    {
+    text-align: center;
+    
+    margin-top:1rem;
+    }
+    #home_aboutus_grid
+    {
+        display: block;
+    }
+    
+    /* room page*/
+    .room_grid
+    {
+        display: block;
+    }
+    #room_h2
+    {
+        line-height: 2rem;
+    }
+
+}
+
+
+@media(max-width:480px)
+{
+    #home_invitebox
+    {
+        
+        margin-left: 10rem;
+    }
+}
